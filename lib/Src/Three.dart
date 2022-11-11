@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-//Check Box
+//CheckBox
 class Three extends StatefulWidget {
   const Three({super.key});
 
