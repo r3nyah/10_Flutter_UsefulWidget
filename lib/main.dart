@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'Src/One.dart';
 import 'Src/Two.dart';
+import 'Src/Three.dart';
 
 void main() {
   runApp(const MyApp());
@@ -14,10 +15,11 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Demo',
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primarySwatch: Colors.deepPurple,
       ),
-      home: Two(),
+      home: Three(),
     );
   }
 }
